@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Output files (generated, too large)
+outputs/
+
+# Raw satellite data (too large)
+data/raw/
+
+# Large geospatial data
+data/boundaries/
+
+# Temporary and zip files
+*.zip
+*.png
+*.tif
+*.shp
+*.dbf
+*.prj
+*.shx
+*.jp2
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+temp_risk_overlay.png
